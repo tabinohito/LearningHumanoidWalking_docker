@@ -29,6 +29,7 @@ RUN python3 -m pip install -U ray
 RUN python3 -m pip install transforms3d
 RUN python3 -m pip install matplotlib
 RUN python3 -m pip install scipy
+RUN python3 -m pip install dm_control
 RUN apt-get update -qq && apt-get install -y python3-tk
 
 # Install Pytorch
